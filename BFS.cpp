@@ -156,7 +156,7 @@ int main()
   cout << endl;
   //----------BFS Level Wise implementation(Iterative approach)-----------
   cout << "BFSLevelWise" << endl;
-  vector<vector<int>> v{{}};
+  vector<vector<int>> v{};
   BFSLevelWise(root, v);
   for(vector<int> i : v)
   {
